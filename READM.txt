@@ -1,0 +1,27 @@
+Pasta principal
+
+dotnet new sln // adicionar a sln principal do projeto
+
+cd pasta do projeto class lib
+
+dotnet new classlib
+
+cd pasta do projeto de teste 
+
+dotnet new new mstest
+
+adicionar a referencia a solution
+dotnet sln add nome_do_projeto/nome_da_solution.csproj
+obs:adicionar todos os projetos necessarios
+
+dotnet restore 
+para restaurar todos os pacotes
+
+dotnet build
+para compilar todos os projetos
+
+
+dotnet add reference ../PaymentContext.Shared/PaymentContext.Shared.csproj
+dotnet add reference ../PaymentContext.Domain/PaymentContext.Domain.csproj
+
+adicionar referencias 
