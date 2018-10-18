@@ -25,3 +25,13 @@ dotnet add reference ../PaymentContext.Shared/PaymentContext.Shared.csproj
 dotnet add reference ../PaymentContext.Domain/PaymentContext.Domain.csproj
 
 adicionar referencias 
+
+cliente site 
+produto 
+pedido
+
+Student      -> Aluno
+Subscription -> Assinatura
+Payment      -> Metodo de pagamento
+
+dotnet add package flunt
