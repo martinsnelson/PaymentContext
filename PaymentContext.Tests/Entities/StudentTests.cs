@@ -8,8 +8,9 @@ namespace PaymentContext.Tests
     public class StudentTests
     {
         [TestMethod]
-        public void AdicionarAssinatura()
+        public void ShouldReturnErrorWhenHadActiveSubscription()
         {
+            Assert.Fail();
             // var subscription = new Subscription(null);
             // var student = new Student("Nelson", "Martins", "234913937", "nelson@nelson.com");
             // student.AddSubscription(subscription);
@@ -18,6 +19,11 @@ namespace PaymentContext.Tests
             // {
             //     not.Message;                
             // }
+        }
+
+        public void ShouldReturnSuccessWhenHadNoActiveSubscription()
+        {
+            Assert.Fail();
         }
     }
 }
